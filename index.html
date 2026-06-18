@@ -4000,31 +4000,32 @@
        2. Si cambias algo desde el panel, usa "Copiar config" y reemplaza este bloque.
        3. HTML/CSS solo se toca cuando quieras cambiar diseño o estructura visual.
     ================================ */
-    const INVITATION_CONFIG = {
+    const INVITATION_CONFIG =
+{
   "meta": {
-    "pageTitle": "Mis XV | Maria Fernanda",
+    "pageTitle": "Mis XV | Nicole",
     "ogTitle": "",
     "ogDescription": "Acompáñanos a celebrar este día tan especial"
   },
   "event": {
     "label": "Mis XV",
-    "celebrantName": "Maria Fernanda",
-    "eventDate": "2026-05-30T18:00",
-    "eventEnd": "2026-06-01T02:00",
+    "celebrantName": "Nicole",
+    "eventDate": "2026-07-04T19:30",
+    "eventEnd": "2026-07-05T02:00",
     "eventLocation": "Top Salón Obispado",
-    "rsvpPhone": "528711137108"
+    "rsvpPhone": "871 221 47 46"
   },
   "theme": {
-    "bgTop": "#002242",
-    "bgMid": "#0d3b66",
-    "bgBottom": "#3e7cb6",
-    "gold500": "#c0c0c0",
-    "particleColor": "#c0c0c0",
-    "text": "#ffffff",
-    "muted": "#c0c0c0",
+    "bgTop": "#eac7c8",
+    "bgMid": "#d29aa0",
+    "bgBottom": "#a86570",
+    "gold500": "#f2c06f",
+    "particleColor": "#fff4cf",
+    "text": "#fffaf3",
+    "muted": "#f9e6e0",
     "bodyFont": "Cormorant Garamond",
     "scriptFont": "Dancing Script",
-    "displayFont": "Great Vibes"
+    "displayFont": "Dancing Script"
   },
   "images": {
     "hero": "FPrincipal.jpg",
@@ -4049,57 +4050,52 @@
   },
   "family": {
     "parentsEyebrow": "En compañía de mis padres",
-    "parentsNamesHtml": "Silvia Elizabeth Martínez Salas<br>&amp;<br>Jaime Eduardo Pámanes Domínguez ",
+    "parentsNamesHtml": "Lorena Catalina Romero García <br>&amp;<br>Juan Manuel Villalobos Medina",
     "parentsInviteText": "Tenemos el honor de invitarles a celebrar mis XV años.",
     "godparentsEyebrow": "Mis padrinos",
     "godparentsNamesHtml": "NO<br>&amp;<br>NO"
   },
   "ceremony": {
     "title": "Ceremonia",
-    "time": "18:00 hrs",
-    "place": "Capilla de la Resurrección ",
+    "time": "19:30 hrs",
+    "place": "Capilla Nuestra Señora de los Angeles ",
     "mediaMode": "icon",
     "iconSrc": "cereminia.png",
     "mapEmbed": "",
     "photoSrc": "",
-    "mapLink": "https://maps.app.goo.gl/sHzsE8kGp8C3yG7z8"
+    "mapLink": "https://maps.app.goo.gl/"
   },
   "reception": {
     "title": "Recepción",
     "time": "21:00 hrs ",
-    "place": "Salon Coahuila. Hotel Crowne Plaza",
+    "place": "Hacienda los Ángeles",
     "mediaMode": "icon",
     "iconSrc": "recepcion.png",
-    "mapLink": "https://maps.app.goo.gl/uSjA23hnN4s6XPVQ8",
+    "mapLink": "https://maps.app.goo.gl/H6vG5pnkKAdFnoUi8",
     "mapEmbed": "",
     "photoSrc": ""
   },
   "timeline": {
     "items": [
       {
-        "time": "18:00 hrs",
+        "time": "19:30 hrs",
         "title": "Ceremonia",
-        "desc": "Capilla de la Resurrección "
+        "desc": "Capilla Nuestra Señora de los Angeles "
       },
       {
         "time": "21:00 hrs",
         "title": "Recepción",
-        "desc": "Salon Coahuila. Hotel Crowne Plaza"
+        "desc": "Hacienda los Ángeles"
       },
       {
         "time": "21:30 hrs",
         "title": "Vals",
-        "desc": "Presentación de Maria Fernanda.Un momento para brindar y compartir."
+        "desc": "Presentación de Nicole. Un momento para brindar y compartir."
       },
       {
         "time": "22:00 hrs",
         "title": "Cena",
         "desc": "Un momento para brindar y compartir."
-      },
-      {
-        "time": "22:30",
-        "title": "Baile",
-        "desc": "Celebremos juntos esta noche inolvidable."
       }
     ]
   },
@@ -4110,7 +4106,7 @@
   "dressCode": {
     "title": "Dress Code",
     "value": "Formal",
-    "note": "Azul reservado para la quinceañera."
+    "note": "Rose Gold para la quinceañera."
   },
   "gifts": {
     "title": "Opciones de regalo",
@@ -4143,7 +4139,7 @@
     "buttonHref": "album-digital-pro.html"
   },
   "rsvp": {
-    "showGuestCount": false,
+    "showGuestCount": true,
     "maxGuests": 6
   },
   "sections": {
@@ -4154,7 +4150,7 @@
     "reception": true,
     "timeline": true,
     "countdown": true,
-    "gallery": true,
+    "gallery": false,
     "dress": true,
     "rsvp": true,
     "gifts": true,
@@ -4189,7 +4185,9 @@
     "ctaLabel": "Contáctanos",
     "ctaHref": "https://wa.me/525550591264?text=Hola%21%20Quiero%20una%20invitaci%C3%B3n%20digital%20con%20estilo%20elegante%20y%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n."
   }
-};
+}
+      
+      ;
 
     let EVENT_DATE = new Date(INVITATION_CONFIG.event.eventDate);
     let EVENT_END = new Date(INVITATION_CONFIG.event.eventEnd);
